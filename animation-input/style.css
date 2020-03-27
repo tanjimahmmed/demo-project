@@ -45,7 +45,7 @@ body {
     height: 100%;
     border-bottom: 2px solid #5fa8d3;
     transform: translateX(-100%);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 .content_name {
     position: absolute;
