@@ -1,0 +1,106 @@
+/* Laptop Layout: 1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) { 
+    
+}
+/* Medium Layout: 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    .main_menu ul li a {
+        font-size: 20px;
+    }
+    .hero_content h2 {
+         font-size: 53px;
+    }
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    .header_transparent {
+        padding: 20px 0;
+    }
+    .hero_area {
+        padding-top: 100px;
+    }
+    .hero_right_bg {
+        text-align: center;
+        padding: 20px 20px;
+    }
+    .header_transparent {
+        padding: 0 0;
+    }
+    .mobile-menu.mean-container a.meanmenu-reveal span {
+        background: #fff;
+    }
+    
+    .mobile-menu.mean-container a {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    .sticky_bar {
+        position: fixed;
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+        background: #6047EC;
+        width: 100%;
+        left: 0;
+        animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+        top: 0;
+        margin: auto;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .header_transparent {
+        padding: 20px 0;
+    }
+    .hero_content h2 {
+        font-size: 30px;
+    }
+    .hero_content p {
+        font-size: 18px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .btn_c {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    .hero_right_bg img {
+        max-width: 230px;
+    }
+    .section_title h2 {
+        font-size: 23px;
+    }
+    .section_title h2::before, .section_title h2::after {
+        left: 25%;
+        width: 30%;
+    }
+    .section_title h2::after {
+        transform: translate(25px, 0);
+        left: 50%;
+        width: 5%;
+    }
+    .about_content_area p {
+        font-size: 20px;
+    }
+    .categories_class {
+        margin-bottom: 30px;
+    }
+    .class_accordion h5 {
+        font-size: 16px;
+    }
+    .classes_inner .video_title a, .classes_inner .video_download_area a {
+        font-size: 13px;
+    }
+    .logo img {
+        max-width: 145px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
+
