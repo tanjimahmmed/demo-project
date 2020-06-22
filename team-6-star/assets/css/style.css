@@ -204,8 +204,6 @@ html, body, .hero_area {
 /* download css */
 
 .categories_class {
-    box-shadow: 0 0 5px #e6e6e6;
-    border-radius: 15px;
     padding: 30px;
 }
 
@@ -253,6 +251,7 @@ html, body, .hero_area {
 
 .download_class_area .card {
     border: none;
+    margin-bottom: 30px;
 }
 
 .download_class_area .card-body {
